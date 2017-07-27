@@ -8,9 +8,9 @@ class App extends Component {
 		return (
 			<div className="App container">
 				<div className="row">
-					<Lista tituloLista="Primera Lista"/>
-					<Lista tituloLista="Segunda Lista"/>
-					<Lista tituloLista="Tercera Lista"/>
+					<Lista tituloLista="Materias" elementosLista={["JavaScript", "Css", "HTML"]}/>
+					<Lista tituloLista="Mandado" elementosLista={["leche", "papel higienico", "cafe"]}/>
+					<Lista tituloLista="Deudas" elementosLista={["laboratoria", "campus party", "doctor"]}/>
 				</div>
 			</div>
 		);
